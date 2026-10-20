@@ -1,38 +1,98 @@
-# Goldleaf AI Assistant
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive AI Workplace Productivity Assistant with a premium black-and-gold SaaS dashboard, sidebar navigation, and mobile-friendly design.
+## Project Overview
 
-Features:
+AI Workplace Productivity Assistant is a modern, responsive web application designed to help professionals improve productivity and simplify everyday workplace tasks using AI-powered tools. It features a professional black-and-gold interface and an easy-to-use dashboard.
 
-Smart Email Generator: Generate personalised professional emails in Formal, Friendly, or Persuasive tones.
+## Features Implemented
 
-Meeting Notes Summarizer: Summarise user-provided notes and extract key decisions, action items, and deadlines.
+### 1. Smart Email Generator
+- Generate professional emails based on user instructions.
+- Support Formal, Friendly, and Persuasive tones.
+- Allow users to edit and copy generated emails.
 
-AI Task Planner: Create personalised daily or weekly schedules and prioritise tasks based on urgency and deadlines.
+### 2. Meeting Notes Summarizer
+- Summarise lengthy meeting notes.
+- Extract important decisions and key points.
+- Identify action items, responsible persons, and deadlines.
 
-Requirements: Use structured prompts, editable outputs, copy buttons, loading states, and a responsible AI disclaimer. Make every response relevant to the user's actual input, not generic templates.
+### 3. AI Task Planner
+- Generate daily and weekly schedules.
+- Prioritise tasks based on urgency and deadlines.
+- Help users organise their time and workload.
 
-AI without an API key: Use a free, publicly accessible AI inference service that requires no user API key, if available. Do not build a backend, database, or authentication system. If no suitable service is available, clearly explain the limitation rather than pretending responses are AI-generated. Never expose secret credentials.
+### 4. User Interface
+- Modern dashboard with sidebar navigation.
+- Responsive design for desktop and mobile devices.
+- Professional black-and-gold colour scheme.
+- Editable outputs and copy functionality.
+- Responsible AI disclaimer encouraging users to verify generated content.
 
-Use React and Tailwind CSS. Keep the application lightweight, functional, professional, and within my 10 free Lovable credits. Avoid unnecessary features and paid integrations.
+## Technologies and Tools Used
 
-This project was built with [Lovable](https://lovable.dev).
+- **Lovable:** AI-assisted application development.
+- **React:** User interface development.
+- **Tailwind CSS:** Styling and responsive layouts.
+- **JavaScript / TypeScript:** Application functionality, depending on project configuration.
+- **GitHub:** Source code management and version control.
+- **AI inference service:** Intended to generate context-specific responses without requiring a personal OpenAI API key, subject to service availability.
 
-## Build with Lovable
+## Setup Instructions
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/4dddb0f1-77ff-42b6-b22a-19eda3621d94).
+### Prerequisites
+- A modern web browser.
+- Node.js and npm.
+- Git.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+### Installation
 
-## Development
+1. Clone the repository:
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+2. Navigate to the project folder:
+
+   ```bash
+   cd ai-workplace-productivity-assistant
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal to access the application.
+
+### Important AI Configuration Note
+
+The application is designed to operate without a custom backend or personal OpenAI API key. Genuine AI-generated responses still require access to a compatible AI inference service. If a free service is used, its availability, usage limits, and configuration requirements may apply.
+
+## Privacy and Responsible AI
+
+- Review AI-generated emails before sending them.
+- Verify meeting decisions, action items, and deadlines.
+- Check task schedules before relying on them.
+- Avoid entering confidential company information or sensitive personal data.
+- Treat AI outputs as assistance rather than a substitute for professional judgement.
+
+## Team Members
+
+- **Project Developer:** Nonhlanhla Precious Zondo
+- git : https://goldleaf-workday-orchestrator.lovable.app/
+
+## Project Goals
+
+The goal of this project is to demonstrate how AI-assisted tools can help professionals communicate effectively, summarise information, and manage workplace tasks more efficiently through a simple and accessible interface.
+
+## License
+
+This project is available for educational and demonstration purposes. Add an appropriate open-source licence if you intend to distribute or reuse the code publicly.
